@@ -3,6 +3,8 @@ import 'package:rohit_2/poppup_button.dart';
 
 import 'Icon_button.dart';
 import 'Inkwell_outline_elevated_button.dart';
+import 'Practice_1.dart';
+import 'Stack_screen.dart';
 import 'dropdown_button.dart';
 
 void main() {
@@ -20,7 +22,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: inkwell_screen()
+      home: stack_screen()
     );
   }
 }
